@@ -1,6 +1,5 @@
 
-# myapp.yml
-
+# myapp.yml dans le dépôt Git
 spring:
   application:
     name: myapp
@@ -8,3 +7,5 @@ spring:
     url: jdbc:mysql://localhost:3306/myapp
     username: root
     password: ""
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
