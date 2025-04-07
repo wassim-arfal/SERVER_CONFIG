@@ -1,12 +1,10 @@
-# application.yml
+
+# myapp.yml
+
 spring:
   application:
     name: myapp
   datasource:
     url: jdbc:mysql://localhost:3306/myapp
-
-spring:
-  datasource:
     username: root
     password: ""
-    
