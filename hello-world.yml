@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: hello-world
+  eureka:
+    client:
+      server-url:
+        defaultZone: http://localhost::8761/eureka/
+server:
+  port: 9090
