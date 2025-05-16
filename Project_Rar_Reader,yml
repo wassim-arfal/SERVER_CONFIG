@@ -1,1 +1,15 @@
+spring:
+  application:
+    name: Project_Rar_Reader
+  eureka:
+    client:
+      server-url:
+        defaultZone: http://localhost:8761/eureka/
+  servlet:
+    multipart:
+      max-file-size: 60000000MB
+      max-request-size: 60000000MB
+
+server:
+  port: 7089
 
