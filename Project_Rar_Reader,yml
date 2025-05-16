@@ -1,6 +1,6 @@
 spring:
   application:
-    name: Project_Rar_Reader
+    name: project-rar-reader
   eureka:
     client:
       server-url:
